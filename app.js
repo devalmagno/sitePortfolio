@@ -39,6 +39,7 @@ function binario(numbers) {
         decimal += num;
     })
 
+    console.log('BINARIO PARA DECIMAL')
     console.log(decimal);
     console.log('----------------------')
 }
@@ -46,7 +47,7 @@ function binario(numbers) {
 function hexa(numbers) {
     let hexa = 0;
     
-    console.log('Decimal')
+    console.log('HEXA PARA DECIMAL')
     
     let toHexa = numbers.map((num, i) => {
         let number = 16 ** i * num;
@@ -59,9 +60,9 @@ function hexa(numbers) {
     toHexa.forEach(num => hexa += num);
 
     console.log(hexa);
-    console.log('----------------------')
-    console.log('Binario')
+    console.log('HEXA PARA Binario')
     decimal(hexa);
+    console.log('----------------------')
 }
 
 function decimal(numbers) {
@@ -78,7 +79,7 @@ function decimal(numbers) {
 
     arrayNumero.reverse();
 
-    console.log('DECIMAL:')
+    console.log('DECIMAL PARA BINARIO:')
     console.log(arrayNumero)
     console.log('----------------------')
 }
