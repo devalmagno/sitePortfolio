@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-content {
+    height: 30rem;
+    width: 30rem;
+    background-color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hexa {
+    margin-bottom: 3rem;
+}
+
+.octal {
+    margin-top: 3rem;
+}
