@@ -16,8 +16,15 @@ body {
 section {
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.aviso {
+    margin-top: 2rem;
+    color: #f4f4f4;
+    max-width: 25rem;
 }
 
 #page-content {
